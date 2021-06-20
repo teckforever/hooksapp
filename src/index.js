@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+//import { CounterWidtCustomHook } from './components/01-useState/CounterWidtCustomHook';
+//import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook'
+//import {MultipleCustomHooks} from './components/03-examples/MultipleCustomHooks'
+
+//import { Memorize } from './components/06-memos/Memorize'
+//import { MemoHook } from './components/06-memos/MemoHook'
+
+//import { MainApp } from './components/09-useContext/MainApp'
+
+import { TodoApp } from './components/08-useReducer/TodoApp'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <TodoApp />,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+
